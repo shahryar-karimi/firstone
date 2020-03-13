@@ -1,0 +1,16 @@
+package com.company;
+
+import java.util.ArrayList;
+import java.util.Scanner;
+
+public class Game {
+    public static void main(String[] args){
+        Scanner input = new Scanner(System.in);
+        Menu menu = new Menu();
+        System.out.println("already have an account?(y/n)");
+        if (input.next().equals("y")){
+            System.out.println("what's your name?");
+
+        }
+    }
+}
